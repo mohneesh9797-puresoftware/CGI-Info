@@ -2,11 +2,10 @@ language: perl
 
 os:
   - linux
-  # - osx
-
+ 
 arch:
  - amd64
- # - arm64	# Gets 404 error
+ - arm64	
 
 env: AUTOMATED_TESTING=1
 
